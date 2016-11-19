@@ -1,2 +1,2 @@
 # prototype
-first version of my portfolio
+UX/UI designer & rookie front-end dev's portfolio
