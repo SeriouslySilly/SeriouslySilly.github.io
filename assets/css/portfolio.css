@@ -1,0 +1,324 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+  background: url(../images/background_hero.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+}
+
+div.footer {
+  background-color: #ededed;
+  padding: 1em;
+}
+
+div.projects {
+  padding: 6rem 0 9rem 0;
+}
+
+div#Contact {
+  padding: 6rem 0 10rem 0;
+  color: #ffffff;
+}
+
+/* 
+@media (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    font-family: 'Cardo', serif;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 1em;
+  }
+}
+*/
+
+
+#headline {
+  position: absolute;
+  left: 0;
+  top: 28vh;
+  width: 100%;
+  text-align: center;
+}
+
+  @media (min-width: 480px) and (max-width: 767px) {
+  #headline {
+    position: absolute;
+    left: 0;
+    top: 32vh;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+  @media (min-width: 768px) {
+  #headline {
+    position: absolute;
+    left: 0;
+    top: 43vh;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 1rem;
+  letter-spacing: 0.4px;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.margin {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+h4,
+h5 {
+  line-height: 1.4;
+} 
+
+h4 {
+  font-size: 16px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  h4 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+p {
+  font-size: 16px;
+  padding-top: 3rem;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  p {
+    font-size: 17px;
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 18px;
+    padding-top: 3rem;
+  }
+}
+
+.brand-heading {
+  font-size: 5rem;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .brand-heading {
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .brand-heading {
+    font-size: 10rem;
+  }
+}
+
+div.light-background {
+  background-color: #ededed;
+}
+
+div.dark-background {
+  background-color: #393939;
+}
+
+/* images below*/
+.img-circle {
+  border-radius: 50%;
+}
+
+.ratio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+/* images above*/
+
+/* social media icons below*/
+ul.social-network {
+  list-style: none;
+  display: block;
+  margin-top: 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 5px;
+}
+
+.social-network a.icoFacebook {
+  background-color: #fff;
+}
+
+.social-network a.icoEnvelope {
+  background-color: #fff;
+}
+
+.social-network a.icoLinkedin {
+  background-color: #fff;
+}
+
+.social-network a:hover i {
+  color: #393939;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #393939;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+/* social media icons above*/
+
+.limited-height {
+  max-height: 360px;
+}
+
+/* żeby pozbyć się paska przewijania w bok
+.limited {
+  max-width: 99%;
+} */
+
+.right {
+    float: right;
+}
+
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-view {
+  background-color: white;
+  border-radius: 30px;
+  color: #393939;
+  margin: 1rem;
+}
+
+.btn-view:hover {
+  background-color: #393939;
+  color: white;
+}
+
+/* hamburger below */
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+/* hamburger above */
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
