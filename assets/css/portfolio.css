@@ -97,18 +97,18 @@ h4 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
   h2 {
-    font-size: 25px;
+    font-size: 31px;
   }
 }
 
 @media (min-width: 768px) {
   h2 {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 
@@ -132,12 +132,12 @@ p {
 }
 
 .brand-heading {
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
   .brand-heading {
-    font-size: 7rem;
+    font-size: 8rem;
   }
 }
 
@@ -239,6 +239,10 @@ ul.social-network li {
 }
 
 .icoAngleDown:visited {
+  color: white;
+}
+
+.icoAngleDown:active {
   color: white;
 }
 
