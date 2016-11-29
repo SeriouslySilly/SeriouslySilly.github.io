@@ -3,7 +3,8 @@ body {
 }
 
 .hero {
-  background: url(../images/background_hero.jpg) no-repeat center center;
+  background-color: rgba(34,34,34,0.3);
+  background: url(../images/background_hero2.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: #ffffff;
@@ -53,7 +54,7 @@ div#Contact {
 }
 
 p {
-  color: #868686;
+  color: #6b6b6b;
 }
 
 h1,
@@ -263,10 +264,10 @@ ul.social-network li {
 .btn-view {
   background-color: transparent;
   border-style: solid;
-  border-color: #797979;
+  border-color: #6b6b6b;
   border-width: thin;
   border-radius: 30px;
-  color: #797979;
+  color: #6b6b6b;
   margin: 1rem;
   font-size: 16px;
   transition: all 0.2s ease-in-out;
@@ -276,10 +277,10 @@ ul.social-network li {
   .btn-view {
     background-color: transparent;
     border-style: solid;
-    border-color: #797979;
+    border-color: #6b6b6b;
     border-width: thin;
     border-radius: 30px;
-    color: #797979;
+    color: #6b6b6b;
     margin: 1rem;
     font-size: 17px;
     transition: all 0.2s ease-in-out;
@@ -289,10 +290,10 @@ ul.social-network li {
   .btn-view {
     background-color: transparent;
     border-style: solid;
-    border-color: #797979;
+    border-color: #6b6b6b;
     border-width: thin;
     border-radius: 30px;
-    color: #797979;
+    color: #6b6b6b;
     margin: 1rem;
     font-size: 18px;
     transition: all 0.2s ease-in-out;
