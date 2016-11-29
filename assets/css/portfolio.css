@@ -170,8 +170,9 @@ ul.social-network li {
   margin: 5px;
 }
 
-.social-network a.icoFacebook {
+.social-network a.icoGithub {
   background-color: #fff;
+  font-size: 23px !important;
 }
 
 .social-network a.icoEnvelope {
