@@ -26,6 +26,7 @@ div#Contact {
 }
 
 #headline {
+  display: none;
   position: absolute;
   left: 0;
   top: 28vh;
@@ -47,7 +48,7 @@ div#Contact {
   #headline {
     position: absolute;
     left: 0;
-    top: 43vh;
+    top: 38vh;
     width: 100%;
     text-align: center;
   }
@@ -149,11 +150,11 @@ p {
 }
 
 div.light-background {
-  background-color: #ededed;
+  background-color: #fcfcfc;
 }
 
 div.dark-background {
-  background-color: #393939;
+  background-color: #333333;
 }
 
 /* social media icons below*/
