@@ -230,6 +230,44 @@ ul.social-network li {
 }
 /* social media icons above*/
 
+/* applied to iconAngleDown below*/
+@-webkit-keyframes scaleMe {
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+
+@-moz-keyframes scaleMe {
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+
+@-ms-keyframes scaleMe {
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+
+@-o-keyframes scaleMe {
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+
+@keyframes scaleMe {
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+
+.scaled {
+  -webkit-animation: scaleMe 0.7s 0s infinite linear alternate;
+  -moz-animation: scaleMe 0.7s 0s infinite linear alternate;
+  -ms-animation: scaleMe 0.7s 0s infinite linear alternate;
+  -o-animation: scaleMe 0.7s 0s infinite linear alternate;
+  animation: scaleMe 0.7s 0s infinite linear alternate;
+}
 
 .icoAngleDown {
   color: white;
@@ -237,17 +275,9 @@ ul.social-network li {
 }
 
 .icoAngleDown:hover {
-  color: #f2f2f2;
-  font-size: 43px;
+  color: #ffffff;
 }
-
-.icoAngleDown:visited {
-  color: white;
-}
-
-.icoAngleDown:active {
-  color: white;
-}
+/* applied to iconAngleDown above*/
 
 .limited-height {
   max-height: 360px;
@@ -342,6 +372,7 @@ ul.social-network li {
   margin-right: 0px;
   margin-left: 0px;
 }
+
 
 /* 2do scroll to top below
 .scrollToTop {

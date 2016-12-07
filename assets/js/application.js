@@ -30,3 +30,17 @@ $(".navbar-nav li a").click(function(event) {
         $(".navbar-collapse").collapse('hide');
 });
 
+//headline zoomingIn on load
+    var yourElement = "#headline";
+    var yourEffect = "zoomIn";
+    var effectClass = "animated " + yourEffect;
+    $( document ).ready(function() {
+      $(yourElement).show().addClass(effectClass).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass();
+    });
+    });
+
+//linkedIn icon zoomingIn on scroll
+
+
+
