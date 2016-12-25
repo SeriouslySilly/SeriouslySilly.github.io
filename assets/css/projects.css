@@ -128,7 +128,7 @@ a:focus {
   background-color: #222222;
   background-size: cover;
   color: #ffffff;
-  height: 90vh;
+  height: 94vh;
   border-bottom: 10px solid #F7A900;
 }
 
@@ -140,7 +140,7 @@ a:focus {
 
 @media (min-width: 768px) {
   .opening {
-    height: 82vh;
+    height: 87vh;
   }
 }
 
@@ -200,7 +200,10 @@ h2,
 h3,
 h4 {
   margin-left: 1rem;
-  letter-spacing: 0.4px;
+}
+
+h1 {
+  line-height: 1.4;
 }
 
 h2 {
