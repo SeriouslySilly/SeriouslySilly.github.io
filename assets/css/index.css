@@ -8,24 +8,21 @@ body {
 
 blockquote p {
   font-style: italic;
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffff;
-  padding-top: 1rem;
+  font-family: 'Merriweather', serif;
+  line-height: 29px;
+  color: #dadcdd;
   font-size: 16px;
-  line-height: 27px;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
   blockquote p {
     font-size: 17px;
-    line-height: 28px;
   }
 }
 
 @media (min-width: 768px) {
   blockquote p {
     font-size: 18px;
-    line-height: 29px;
   }
 }
 
@@ -37,7 +34,7 @@ blockquote h5 {
 
 blockquote {
   border-left: 5px solid #F7A900;
-  margin: 13rem 0;
+  margin: 14rem 0;
 }
 
 blockquote a {
@@ -120,7 +117,20 @@ blockquote a:focus {
 .footer {
   font-family: 'Open Sans', sans-serif !important;
   padding: 1em;
-  color: #bfbfbf;
+  color: #6b6b6b;
+}
+
+.footer a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f8ba32; 
+}
+
+.footer a:focus {
+  color: #f8ba32; 
 }
 
 .projects {
@@ -250,28 +260,6 @@ h2 {
 @media (min-width: 768px) {
   h2 {
     font-size: 32px;
-  }
-}
-
-p {
-  font-family: 'Merriweather', serif;
-  line-height: 28px;
-  color: #6b6b6b;
-  font-size: 16px;
-  padding-top: 3rem;
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-  p {
-    font-size: 17px;
-    padding-top: 3rem;
-  }
-}
-
-@media (min-width: 768px) {
-  p {
-    font-size: 18px;
-    padding-top: 3rem;
   }
 }
 
