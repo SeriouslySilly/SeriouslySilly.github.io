@@ -2,6 +2,29 @@ body {
   font-size: 15px;
 }
 
+/* reference carousel below */
+/* carousel */
+#quote-carousel {
+  padding: 0 10px;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  bottom: 5em;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #333333;
+  border: none;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #6b6b6b;
+  height:10px;
+  width:10px;
+  margin-bottom:1px;
+}
+/* reference carousel above */
+
 .thumb {
    margin: 1.5rem 0 2rem 0;
 }
