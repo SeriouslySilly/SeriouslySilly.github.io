@@ -10,7 +10,7 @@ blockquote p {
   font-style: italic;
   font-family: 'Merriweather', serif;
   line-height: 29px;
-  color: #dadcdd;
+  color: #888888;
   font-size: 16px;
 }
 
@@ -28,7 +28,7 @@ blockquote p {
 
 blockquote h5 {
   font-family: 'Open Sans', sans-serif;
-  color: #9d9d9d;
+  color: #6b6b6b;
   line-height: 23px;
 }
 
@@ -38,7 +38,7 @@ blockquote {
 }
 
 blockquote a {
-  color: #9d9d9d;
+  color: #6b6b6b;
   text-decoration: none;
 }
 
