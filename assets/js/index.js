@@ -44,7 +44,8 @@ $(".navbar-nav li a").click(function(event) {
 $(document).ready(function() {
   //carousel options
   $('#quote-carousel').carousel({
-    pause: true, interval: 18000,
+    pause: "hover", 
+    interval: false
   });
 });
 
